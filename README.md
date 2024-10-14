@@ -32,33 +32,23 @@ This course takes you from TypeScript basics to advanced concepts through practi
 
 2. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/learn-typescript-14days.git
-   cd learn-typescript-14days
+   git clone https://github.com/stevepop/typescript-in-14days.git
+   cd typescript-in-14days
    ```
 
 
 ## 📁 Repository Structure
 
 ```
-learn-typescript-14days/
-├── src/
-│   ├── index.ts/
-│   ├── tasks.ts/
-│   │── tasks.ts/
-│── dist/
-├── tests/
-├── package.json
-├── tsconfig.json
-└── README.md
-```
+The repository contains folders containing sample code for each day. 
 
 ## 🛠️ Running the Examples
 
-Each day's examples can be run using the TypeScript compiler:
+Each day's examples can be run using the TypeScript compiler. For example, to run the code for day 1:
 
 ```bash
-# Navigate to a specific branch
-`git checkout ts-basic-types`
+# Navigate to day 1
+`cd day-1`
 
 # Compile TypeScript files and run the compiled JavaScript
 ```
@@ -66,6 +56,13 @@ tsc && node dist/index.js`
 
 ```
 
+To run the Vue application from Day 12, you will need to run the application as follows:
+```
+cd day-12
+npm install
+
+npm run serve
+```
 
 ## 📖 Additional Resources
 
@@ -102,5 +99,5 @@ Your Name
 
 Have questions? Feel free to reach out:
 - Email: steve@stephenpopoola.uk
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
+- Twitter: [@stpopoola](https://twitter.com/stpopoola)
 - LinkedIn: [Steve Popoola](https://www.linkedin.com/in/stevepop/)
